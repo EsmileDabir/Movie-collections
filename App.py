@@ -40,7 +40,7 @@ def recommend(movie):
 
 
 # Streamlit UI
-st.header('Konsa Movie Dekhoge? 🎬')
+st.header('Find Your Next Movie? 🎬')
 
 # Load movie data
 movies = pickle.load(open('movie_list.pkl', 'rb'))
